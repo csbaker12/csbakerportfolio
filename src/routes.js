@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import Home from './components/home';
 import Header from './components/nav/header';
-import Connect from './components/connect';
+// import Connect from './components/connect';
 import Education from './components/education';
 import Projects from './components/projects';
 
