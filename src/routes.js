@@ -5,11 +5,13 @@ import Header from './components/nav/header';
 // import Connect from './components/connect';
 import Education from './components/education';
 import Projects from './components/projects';
+import ResetScroll from './components/utils/resetScroll';
 
 const Routes = () => {
   return (
     <>
       <BrowserRouter>
+        <ResetScroll />
         <Header />
         <Switch>
           {/* <Route path='/connect' component={Connect} /> */}
