@@ -65,3 +65,11 @@ a {
   width: 100%;
   min-height: 100vh;
 }
+
+.familiar {
+  color: yellow;
+}
+
+.daily {
+  color: rgb(6, 238, 130);
+}

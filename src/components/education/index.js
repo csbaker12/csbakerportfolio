@@ -68,45 +68,85 @@ const Education = () => {
           <div className='row'>
             <div className='col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-5'>
               <GrNode style={{ fontSize: '60px', color: 'white' }} />
-              <p>Node.js</p>
+              <p className='daily'>
+                Node.js
+                <br />
+                Daily
+              </p>
             </div>
             <div className='col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-5'>
               <GrReactjs style={{ fontSize: '60px', color: 'white' }} />{' '}
-              <p>React.js</p>
+              <p className='daily'>
+                React.js
+                <br />
+                Daily
+              </p>
             </div>
             <div className='col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-5'>
               <ImHtmlFive style={{ fontSize: '60px', color: 'white' }} />
-              <p>HTML5</p>
+              <p className='daily'>
+                HTML5
+                <br />
+                Daily
+              </p>
             </div>
             <div className='col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-5'>
               <FaCss3 style={{ fontSize: '60px', color: 'white' }} />
-              <p>CSS</p>
+              <p className='daily'>
+                CSS
+                <br />
+                Daily
+              </p>
             </div>
             <div className='col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-5'>
               <SiJavascript style={{ fontSize: '60px', color: 'white' }} />
-              <p>Javascript</p>
-            </div>
-            <div className='col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-5'>
-              <SiPython style={{ fontSize: '60px', color: 'white' }} />
-              <p>Python</p>
+              <p className='daily'>
+                Javascript
+                <br />
+                Daily
+              </p>
             </div>
             <div className='col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-5'>
               <FaGitAlt style={{ fontSize: '60px', color: 'white' }} />
-              <p>Git</p>
+              <p className='daily'>
+                Git
+                <br />
+                Daily
+              </p>
             </div>
             <div className='col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-5'>
               <SiMongodb style={{ fontSize: '60px', color: 'white' }} />
-              <p>mongoDB</p>
-            </div>
-            <div className='col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-5'>
-              <DiSqllite style={{ fontSize: '60px', color: 'white' }} />
-              <p>SQLite</p>
+              <p className='daily'>
+                mongoDB
+                <br />
+                Daily
+              </p>
             </div>
             <div className='col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-5'>
               <BsFillBootstrapFill
                 style={{ fontSize: '60px', color: 'white' }}
               />
-              <p>Bootstrap</p>
+              <p className='daily'>
+                Bootstrap
+                <br />
+                Daily
+              </p>
+            </div>
+            <div className='col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-5'>
+              <SiPython style={{ fontSize: '60px', color: 'white' }} />
+              <p className='familiar'>
+                Python
+                <br />
+                Familiar
+              </p>
+            </div>
+            <div className='col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-5'>
+              <DiSqllite style={{ fontSize: '60px', color: 'white' }} />
+              <p className='familiar'>
+                SQLite
+                <br />
+                Familiar
+              </p>
             </div>
           </div>
         </div>
