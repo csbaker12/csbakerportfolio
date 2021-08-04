@@ -22,7 +22,7 @@ const SideDrawer = () => {
         style={{ fontSize: '40px', color: 'white' }}
       />
       <Drawer anchor={'right'} open={state} onClose={() => setState(false)}>
-        <List>
+        <List className='drawer'>
           {/* <ListItem
             button
             component={RouterLink}
@@ -40,9 +40,9 @@ const SideDrawer = () => {
             to='/education'
             onClick={() => setState(false)}>
             <ListItemIcon>
-              <SchoolIcon />
+              <SchoolIcon style={{ fontSize: '40px', color: 'white' }} />
             </ListItemIcon>
-            <ListItemText primary='Education' />
+            <ListItemText primary='Education' className='item' />
           </ListItem>
 
           <ListItem
@@ -51,9 +51,9 @@ const SideDrawer = () => {
             to='/projects'
             onClick={() => setState(false)}>
             <ListItemIcon>
-              <FolderIcon />
+              <FolderIcon style={{ fontSize: '40px', color: 'white' }} />
             </ListItemIcon>
-            <ListItemText primary='Projects' />
+            <ListItemText primary='Projects' className='item' />
           </ListItem>
         </List>
       </Drawer>
