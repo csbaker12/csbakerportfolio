@@ -6,7 +6,7 @@ const Projects = () => {
           <h1>Projects I've worked on</h1>
           <div>
             <h3>Flickbase</h3>
-            <p>
+            <p className='paragraph'>
               Flickbase is an IMDB style fullstack application built with React,
               Express, mongoDB, and Node.js
               <br />

@@ -1,15 +1,15 @@
 .navbar {
   /* border-bottom: 5px solid #dbdbdb; */
   background: black;
-  padding-left: 5%;
-  padding-right: 2%;
+  padding-left: 100px;
+  padding-right: 10px;
 }
 .div1 {
-  padding-top: 3%;
+  padding-top: 80px;
   text-align: center;
 }
 .home {
-  background-image: url(https://lh3.googleusercontent.com/ZmV3oUmwKQw7wPgXmIwAwuTaxQccM31HfKIeEiUutVyBwicqRDrErmEdYPCncfReQaWuhu4Ui6RAmxxrG14pO8pbojRCA8l8Bro7f0XeK0k3G4mwe150TwtXr6rBpOxezfuglRZgf27QFQSgJv5Fm1ePWgfeTcJZoQjH2jo5rin2EjeITZBX9Q1eKrfsGT1cQt6amX69-ssm91R4vsrLQJMqtEKtYC6lWmuY65Ax44oPtPU0TpFQNnggBo_7_KVb5FENO_ynXvHWIM1X2t9AKwYgewgZdbLA2VNlFDqRWyAetE4SmFx2l7MSYpopMdJZUrQclU_CzLCmZdsQMut_tgA15qVnpzb9KERZMDlCxMCRLp-_TD0Hl6p2CNAZNYOm9hk2KyQLY_VX65MmyrIP2Hv9af7T8qTNrOq-zhUyWYBlELAQPfzCV88IA1gwerfkvAG6YCianCtkfoMLuaebbdCTID0dW-mTuDzFhnd25JbO6WyKT30jhZdXBU7-mVQAtIIJBtwDf55eWaK3MwHhCW5tUl1XvwTHpliLISCEnmetmZkqRUyQeKgvJZ_BliSfo2HJ2sDKGykyhXojb1-M4ZZm4uoBcuHO5Y-JA6TD1dP24UZuQo6LLE0zCYP6sozstAeYd-VmIyntlfMIDXNwONT17kPXN3tB7VwWdpQkMEKRYV3wLNXt_4cVkpYJ56hcEAsQTiiZSiz8f1D061j7eGGU=w1374-h914-no?authuser=0);
+  background-image: url(https://lh3.googleusercontent.com/rQ88xIOotxzzm-WYP3E0UZRRp-1oJDRddAbUZXwRblIQ6h9TvOmVFCDjzJcRi1xjy_krBtOQBtd7UqOkelLQSSncberjCd47_KqJVOht-q0PRuoRYpH4pKp1aTuQobbvTqLNqoISZHkBZPjEnUT9k1dfHL_g2gEs04Hbl6W2U1F0gL_mMn3gWPJ5sx5i5YfVHz0hPgNmIMiWgNMn1E8nwHhTy2qS5cIh2hX-8Zhg4bkj0t4JBmvRAYiGLfPNyW-JDEBHdZGvSMOgX4ay7o2y3KuNWbV06V2K4SkQpa-j18R6_5EAD4Whi_c-X8yqRnAaL2_Nl_98Ot8A81NA38FnnIejhn8BwWoYP0G-AydzGewU-DBB8oSPMRpaOuTzlYvUcIUUPC5jgDjeyN8tvow_KizEu62lDGVuhD6VrZzndEYpF3RsYx9efDd7FBdpIkBWeg-4Dsf0RgSM9OKD1lYIvfuV9irv00hbwP2ETXNEWMk98EKpMMZpfa9UMGX7e0BrnfakKUonKVZp9ktFsdTQL2-CbdEVhuW1ApGTCz4a-AuzbfLME-ZZW3dxuZmVijxGs2YAhuzu1lFZxTAB5GPshrXuXgeCcFeTGQzSAAnT_peZVne4snuOzsQB3n3M8dxztDHGEJr3Bm2HJcqcIgImao6TRyKJrhMKAsCHuP8z4RkAM_mAXbStI_LfhA-j4yTlCar4Z9UPpNzQGvU3wC9yjHDj=w1380-h777-no?authuser=0);
   background-size: cover;
   background-attachment: fixed;
   background-color: black;
@@ -56,22 +56,12 @@ a {
   justify-content: space-around;
 }
 
-.who {
-  font-size: 0.7vw;
+.paragraph {
+  font-size: 20px;
 }
 
 .wrapper {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   min-height: 100vh;
 }
-
-.fitMobile {
-  font-size: 0.7vw;
-}
-
-/* @media screen and (max-width: 480px) {
-  .fitMobile {
-    font-size: 12px;
-  }
-} */

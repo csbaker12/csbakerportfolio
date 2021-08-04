@@ -11,7 +11,7 @@ const Home = () => {
         <div className='div1'>
           <h1>Welcome to my Portoflio</h1>
           <br />
-          <p className='who'>
+          <p className='paragraph'>
             My name is Cam Baker, I'm a fullstack web developer. I am most
             experienced with the MERN stack but have also worked with
             Python(+Django), and MySQL
@@ -27,7 +27,7 @@ const Home = () => {
             <h2 className='label'>Who I am</h2>
           </div>
           <div className='col-6'>
-            <p className='who'>
+            <p className='paragraph'>
               I hold a B.S. in Metallurgical and Materials Engineering from the
               Colorado School of Mines that I obtained in 2019. My interest in
               coding began long ago in a high school Robotics course but it was
@@ -48,29 +48,29 @@ const Home = () => {
             <h2 className='label'>Connect with me</h2>
           </div>
           <div className='col-6'>
-            <p className='fitMobile'>
-              <EmailIcon style={{ fontSize: '1vw', color: 'white' }} />:
+            <p className='paragraph'>
+              <EmailIcon style={{ fontSize: '40px', color: 'white' }} />:
               camsandybaker@gmail.com
             </p>
             <br />
-            <p className='fitMobile'>
-              <PhoneIcon style={{ fontSize: '1vw', color: 'white' }} />: (970)
+            <p className='paragraph'>
+              <PhoneIcon style={{ fontSize: '40px', color: 'white' }} />: (970)
               214-7220
             </p>
             <br />
             <a href='https://docs.google.com/document/d/1d94PMthIv14acHUwOprN2PolTyNKFcV-cnbHsXdauR4/edit?usp=sharing'>
-              <p className='fitMobile'>Resume Download</p>
+              <p className='paragraph'>Resume Download</p>
             </a>
             <br />
             <div className='row'>
               <div className='col-lg-1 col-md-2 '>
                 <a href='https://www.linkedin.com/in/cameron-baker-9b15a1198/'>
-                  <LinkedInIcon style={{ fontSize: '2vw', color: 'white' }} />
+                  <LinkedInIcon style={{ fontSize: '40px', color: 'white' }} />
                 </a>
               </div>
               <div className='col-lg-1 col-md-2 '>
                 <a href='https://github.com/csbaker12'>
-                  <GitHubIcon style={{ fontSize: '2vw', color: 'white' }} />
+                  <GitHubIcon style={{ fontSize: '40px', color: 'white' }} />
                 </a>
               </div>
               <div className='col-lg-10 col-md-8'></div>
