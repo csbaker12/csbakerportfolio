@@ -63,17 +63,17 @@ const Home = () => {
             </a>
             <br />
             <div className='row'>
-              <div className='col-lg-1 col-md-2 '>
+              <div className='col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-5'>
                 <a href='https://www.linkedin.com/in/cameron-baker-9b15a1198/'>
                   <LinkedInIcon style={{ fontSize: '40px', color: 'white' }} />
                 </a>
               </div>
-              <div className='col-lg-1 col-md-2 '>
+              <div className='col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-5'>
                 <a href='https://github.com/csbaker12'>
                   <GitHubIcon style={{ fontSize: '40px', color: 'white' }} />
                 </a>
               </div>
-              <div className='col-lg-10 col-md-8'></div>
+              <div className='col-xl-10 col-lg-8 col-md-6 col-sm-4 col-xs-2'></div>
             </div>
           </div>
         </div>
