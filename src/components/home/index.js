@@ -11,11 +11,11 @@ const Home = () => {
         <div className='div1'>
           <h1>Welcome to my Portoflio</h1>
           <br />
-          <h5>
+          <p className='who'>
             My name is Cam Baker, I'm a fullstack web developer. I am most
             experienced with the MERN stack but have also worked with
             Python(+Django), and MySQL
-          </h5>
+          </p>
           <br />
         </div>
 
@@ -49,28 +49,28 @@ const Home = () => {
           </div>
           <div className='col-6'>
             <p className='fitMobile'>
-              <EmailIcon style={{ fontSize: '200%', color: 'white' }} />:
+              <EmailIcon style={{ fontSize: '170%', color: 'white' }} />:
               camsandybaker@gmail.com
             </p>
             <br />
             <p className='fitMobile'>
-              <PhoneIcon style={{ fontSize: '200%', color: 'white' }} />: (970)
+              <PhoneIcon style={{ fontSize: '170%', color: 'white' }} />: (970)
               214-7220
             </p>
             <br />
             <a href='https://docs.google.com/document/d/1d94PMthIv14acHUwOprN2PolTyNKFcV-cnbHsXdauR4/edit?usp=sharing'>
-              <h5>Resume Download</h5>
+              <p className='fitMobile'>Resume Download</p>
             </a>
             <br />
             <div className='row'>
               <div className='col-lg-1 col-md-2 '>
                 <a href='https://www.linkedin.com/in/cameron-baker-9b15a1198/'>
-                  <LinkedInIcon style={{ fontSize: '200%', color: 'white' }} />
+                  <LinkedInIcon style={{ fontSize: '300%', color: 'white' }} />
                 </a>
               </div>
               <div className='col-lg-1 col-md-2 '>
                 <a href='https://github.com/csbaker12'>
-                  <GitHubIcon style={{ fontSize: '200%', color: 'white' }} />
+                  <GitHubIcon style={{ fontSize: '300%', color: 'white' }} />
                 </a>
               </div>
               <div className='col-lg-10 col-md-8'></div>
