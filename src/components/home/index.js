@@ -49,7 +49,7 @@ const Home = () => {
           </div>
           <div className='col-6'>
             <p className='fitMobile'>
-              <EmailIcon style={{ fontSize: '40px', color: 'white' }} />:
+              <EmailIcon style={{ fontSize: '200%', color: 'white' }} />:
               camsandybaker@gmail.com
             </p>
             <br />
