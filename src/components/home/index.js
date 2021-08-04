@@ -49,12 +49,12 @@ const Home = () => {
           </div>
           <div className='col-6'>
             <p className='fitMobile'>
-              <EmailIcon style={{ fontSize: '170%', color: 'white' }} />:
+              <EmailIcon style={{ fontSize: '1vw', color: 'white' }} />:
               camsandybaker@gmail.com
             </p>
             <br />
             <p className='fitMobile'>
-              <PhoneIcon style={{ fontSize: '170%', color: 'white' }} />: (970)
+              <PhoneIcon style={{ fontSize: '1vw', color: 'white' }} />: (970)
               214-7220
             </p>
             <br />
@@ -65,12 +65,12 @@ const Home = () => {
             <div className='row'>
               <div className='col-lg-1 col-md-2 '>
                 <a href='https://www.linkedin.com/in/cameron-baker-9b15a1198/'>
-                  <LinkedInIcon style={{ fontSize: '300%', color: 'white' }} />
+                  <LinkedInIcon style={{ fontSize: '2vw', color: 'white' }} />
                 </a>
               </div>
               <div className='col-lg-1 col-md-2 '>
                 <a href='https://github.com/csbaker12'>
-                  <GitHubIcon style={{ fontSize: '300%', color: 'white' }} />
+                  <GitHubIcon style={{ fontSize: '2vw', color: 'white' }} />
                 </a>
               </div>
               <div className='col-lg-10 col-md-8'></div>
