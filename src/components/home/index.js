@@ -48,10 +48,10 @@ const Home = () => {
             <h2 className='label'>Connect with me</h2>
           </div>
           <div className='col-6'>
-            <h5>
+            <p className='fitMobile'>
               <EmailIcon style={{ fontSize: '40px', color: 'white' }} />:
               camsandybaker@gmail.com
-            </h5>
+            </p>
             <br />
             <h5>
               <PhoneIcon style={{ fontSize: '40px', color: 'white' }} />: (970)
