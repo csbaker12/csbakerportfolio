@@ -53,10 +53,10 @@ const Home = () => {
               camsandybaker@gmail.com
             </p>
             <br />
-            <h5>
-              <PhoneIcon style={{ fontSize: '40px', color: 'white' }} />: (970)
+            <p className='fitMobile'>
+              <PhoneIcon style={{ fontSize: '200%', color: 'white' }} />: (970)
               214-7220
-            </h5>
+            </p>
             <br />
             <a href='https://docs.google.com/document/d/1d94PMthIv14acHUwOprN2PolTyNKFcV-cnbHsXdauR4/edit?usp=sharing'>
               <h5>Resume Download</h5>
@@ -65,12 +65,12 @@ const Home = () => {
             <div className='row'>
               <div className='col-lg-1 col-md-2 '>
                 <a href='https://www.linkedin.com/in/cameron-baker-9b15a1198/'>
-                  <LinkedInIcon style={{ fontSize: '40px', color: 'white' }} />
+                  <LinkedInIcon style={{ fontSize: '200%', color: 'white' }} />
                 </a>
               </div>
               <div className='col-lg-1 col-md-2 '>
                 <a href='https://github.com/csbaker12'>
-                  <GitHubIcon style={{ fontSize: '40px', color: 'white' }} />
+                  <GitHubIcon style={{ fontSize: '200%', color: 'white' }} />
                 </a>
               </div>
               <div className='col-lg-10 col-md-8'></div>
