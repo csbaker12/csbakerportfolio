@@ -59,11 +59,18 @@ const Home = () => {
             </p>
             <br />
             <p className='paragraph'>
-              <PhoneIcon style={{ fontSize: '40px', color: 'white' }} />: (970)
-              214-7220
+              <PhoneIcon
+                style={{
+                  fontSize: '40px',
+                  color: 'white',
+                }}
+              />
+              : (970) 214-7220
             </p>
             <br />
-            <a href='https://docs.google.com/document/d/1d94PMthIv14acHUwOprN2PolTyNKFcV-cnbHsXdauR4/edit?usp=sharing'>
+            <a
+              href='https://docs.google.com/document/d/1d94PMthIv14acHUwOprN2PolTyNKFcV-cnbHsXdauR4/edit?usp=sharing'
+              target='_blank'>
               <p className='paragraph'>Resume Download</p>
             </a>
             <br />

@@ -8,7 +8,7 @@ const Projects = () => {
           <br />
           <div className='row'>
             <div className='col-4'>
-              <a href='https://flickbaseapp.herokuapp.com/'>
+              <a href='https://flickbaseapp.herokuapp.com/' target='_blank'>
                 <h3>Flickbase</h3>
               </a>
             </div>
