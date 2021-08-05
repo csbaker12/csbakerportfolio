@@ -8,7 +8,10 @@ const Projects = () => {
           <br />
           <div className='row'>
             <div className='col-4'>
-              <a href='https://flickbaseapp.herokuapp.com/' target='_blank'>
+              <a
+                href='https://flickbaseapp.herokuapp.com/'
+                target='_blank'
+                rel='noreferrer'>
                 <h3>Flickbase</h3>
               </a>
             </div>
@@ -24,6 +27,20 @@ const Projects = () => {
                 Passwords are salted and hashed to prevent security breaches I'd
                 be happy to provide administrative access to those who desire a
                 look at that side
+              </p>
+            </div>
+          </div>
+          <hr />
+          <br />
+          <div className='row'>
+            <div className='col-4'>
+              <h3>TGR</h3>
+            </div>
+            <div className='col-6'>
+              <p className='paragraph'>
+                Currently I am recreating the Teton Gravity Research website
+                from scratch. I am using mongoDB, Express, Node, and React. As
+                soon as it is live I will add a link here!
               </p>
             </div>
           </div>

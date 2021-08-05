@@ -9,7 +9,7 @@ function ResetScroll({ history }) {
     return () => {
       unlisten();
     };
-  }, []);
+  }, [history]);
 
   return null;
 }

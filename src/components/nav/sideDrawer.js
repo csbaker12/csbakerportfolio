@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import DehazeIcon from '@material-ui/icons/Dehaze';
-import MailOutlineIcon from '@material-ui/icons/MailOutline';
+// import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import SchoolIcon from '@material-ui/icons/School';
 import FolderIcon from '@material-ui/icons/Folder';
 import { Link as RouterLink } from 'react-router-dom';
@@ -20,6 +20,7 @@ const SideDrawer = () => {
       <DehazeIcon
         onClick={() => setState(true)}
         style={{ fontSize: '40px', color: 'white' }}
+        className='drawer_btn'
       />
       <Drawer anchor={'right'} open={state} onClose={() => setState(false)}>
         <List className='drawer'>
