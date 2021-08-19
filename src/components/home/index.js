@@ -24,26 +24,28 @@ const Home = () => {
 
         <div className='row'>
           <div className='col-4'>
-            <h2 className='label'>
-              Who I am
-              <img
-                className='headshot'
-                alt='This is me'
-                src='https://lh3.googleusercontent.com/I34UsjkcgkTUUuF-TaCCz9hYTZKrDdxQerQxtJAHT-P2_OAgXnRKwDYbsxKEQ5XYrFB3n3NZ0A-tWgR-tU1rUgTWYAzD3jnhmlwtBl0YHMWMdp7gMNB0JmYDBg3bgyv68-OnLvnV-fQJ5yJfbGOwK4rCThVHAI_g29ndfpCPNwKLfxTGdfNs4KCJ98xYSt-YbMQ0zH5dbqhwhHgBUr_SHyuXkcKli4Ui_F2y8Ov-kdyr7lUNGctGOzo4AO26X4TZrpSBhgehFW3T5xuSkKxkstnmSSD8lC6Jx5UO_WvytkbqE2lWE_yGR8d5WBaqNNvp62U_uzi8MySyo0PRcHx3_M56pXu4VtjRp2rN2jLhoSiC_VkKlLQDagxL4EIVs5LAmXKtG3A7jUkWQxfblt_jB_7fxn_hIUdrTgep5vDme7ksCKNxYO1k7HplBYHkxb8d7h--ly9wPH5Ad5o0QzeWDEHuk9vbtOQWQuUNGRxNTtHXs0_sQavjf2ukLPeKMtkks6cZ7jwHzY2TSxnSSTdlQ_qOM_viqbQVFx43MXtYcbncPEB1LsrpX-vpV99gLkwqvGQyZe_2VpoG01ZKke7RuRdhd2PgFmRRhZ4-QyPR9Jd_H2y2DMY8HO8KeM0N4ofZor4V2OFNSCJymfthesDVivkHxe3UmtDg_i4tx-ZNANHc43SPs6anI6KHYqtXDmiRRfRtbvkdML4jmOOZO4nQ5dLu=w686-h914-no?authuser=0'></img>
-            </h2>
+            <div className='label'>
+              <h2>Who I am</h2>
+              <div className='profpic'></div>
+            </div>
           </div>
           <div className='col-6'>
             <p className='paragraph'>
-              I hold a B.S. in Metallurgical and Materials Engineering from the
-              Colorado School of Mines that I obtained in 2019. My interest in
-              coding began long ago in a high school Robotics course but it was
-              not until I began Harvard's CS50 in February 2021 that I became
-              serious about a career in Development. Since then I have completed
-              Harvard's CS50 and CS50W plus three Udemy full stack development
-              bootcamps courses and have now turned my attention to building
-              projects for displaying on this portofilio. I am currently seeking
-              employment as a fullstack, frontend, or backend developer. I am
-              willing to learn any language, stack, or framework.
+              My name is Cameron Baker and I am a full stack web developer. In
+              2019 I graduated cum laude from the Colorado School of Mines with
+              a B.S. In Metallurgical and Materials Engineering. I received
+              multiple national recognitions for research and expertise in my
+              field. Shortly thereafter I started learning Object Oriented
+              Programming using C# as I was interested in mobile game
+              development. As I became comfortable with coding logic I began to
+              explore other types of development. In March of 2021 I discovered
+              web development and have since been practicing full time. I have
+              completed three Udemy bootcamps for a total of over 150 hours of
+              lecture and am now building projects from scratch to continue
+              gaining experience. As a self taught developer I am passionate and
+              accountable. I am looking forward to contributing to a larger
+              cause than myself and using my developing skills to have a
+              positive impact on the world.
             </p>
           </div>
         </div>

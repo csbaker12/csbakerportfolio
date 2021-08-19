@@ -7,7 +7,7 @@ const Projects = () => {
           <hr />
           <br />
           <div className='row'>
-            <div className='col-4'>
+            <div className='col-6'>
               <a
                 href='https://flickbaseapp.herokuapp.com/'
                 target='_blank'
@@ -33,14 +33,30 @@ const Projects = () => {
           <hr />
           <br />
           <div className='row'>
-            <div className='col-4'>
-              <h3>TGR</h3>
+            <div className='col-6'>
+              <a
+                href='https://tgrclone.herokuapp.com/'
+                target='_blank'
+                rel='noreferrer'>
+                <h3>TGR Clone</h3>
+              </a>
             </div>
             <div className='col-6'>
               <p className='paragraph'>
-                Currently I am recreating the Teton Gravity Research website
-                from scratch. I am using mongoDB, Express, Node, and React. As
-                soon as it is live I will add a link here!
+                My current project is a clone of Teton Gravity Research's
+                website. It's unfinished but you can view my progress here!
+              </p>
+            </div>
+          </div>
+          <hr />
+          <br />
+          <div className='row'>
+            <div className='col-6'>
+              <h3>Portfolio</h3>
+            </div>
+            <div className='col-6'>
+              <p className='paragraph'>
+                I built the site you are currently perusing using React!
               </p>
             </div>
           </div>
