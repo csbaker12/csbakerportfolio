@@ -9,6 +9,29 @@ const Projects = () => {
           <div className='row'>
             <div className='col-6'>
               <a
+                href='https://tgrclone.herokuapp.com/'
+                target='_blank'
+                rel='noreferrer'>
+                <h3>TGR Clone</h3>
+              </a>
+            </div>
+            <div className='col-6'>
+              <p className='paragraph'>
+                Currently, I am cloning Teton Gravity Research's website. It is
+                a large undertaking but already has a lot of functionality to
+                explore. I used React, HTML, CSS, Bootstrap, Material UI, and
+                more for the frontend. The backend consists of Express, Node,
+                MongoDB, and more. I will be implementing full CRUD
+                functionality in the forum section. It also features RESTful API
+                integration.
+              </p>
+            </div>
+          </div>
+          <hr />
+          <br />
+          <div className='row'>
+            <div className='col-6'>
+              <a
                 href='https://flickbaseapp.herokuapp.com/'
                 target='_blank'
                 rel='noreferrer'>
@@ -30,24 +53,7 @@ const Projects = () => {
               </p>
             </div>
           </div>
-          <hr />
-          <br />
-          <div className='row'>
-            <div className='col-6'>
-              <a
-                href='https://tgrclone.herokuapp.com/'
-                target='_blank'
-                rel='noreferrer'>
-                <h3>TGR Clone</h3>
-              </a>
-            </div>
-            <div className='col-6'>
-              <p className='paragraph'>
-                My current project is a clone of Teton Gravity Research's
-                website. It's unfinished but you can view my progress here!
-              </p>
-            </div>
-          </div>
+
           <hr />
           <br />
           <div className='row'>
@@ -56,7 +62,7 @@ const Projects = () => {
             </div>
             <div className='col-6'>
               <p className='paragraph'>
-                I built the site you are currently perusing using React!
+                I built the site you are currently browsin using React!
               </p>
             </div>
           </div>

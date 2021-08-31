@@ -13,8 +13,8 @@ const Home = () => {
           <br />
           <p className='paragraph'>
             My name is Cam Baker, I'm a fullstack web developer. I am most
-            experienced with the MERN stack but have also worked with
-            Python(+Django), and MySQL
+            confident working with JavaScript and the MERN stack but am always
+            open to picking up new technology.
           </p>
           <br />
         </div>
@@ -31,9 +31,8 @@ const Home = () => {
           </div>
           <div className='col-6'>
             <p className='paragraph'>
-              My name is Cameron Baker and I am a full stack web developer. In
-              2019 I graduated cum laude from the Colorado School of Mines with
-              a B.S. In Metallurgical and Materials Engineering. I received
+              In 2019 I graduated cum laude from the Colorado School of Mines
+              with a B.S. In Metallurgical and Materials Engineering. I received
               multiple national recognitions for research and expertise in my
               field. Shortly thereafter I started learning Object Oriented
               Programming using C# as I was interested in mobile game
@@ -45,7 +44,8 @@ const Home = () => {
               gaining experience. As a self taught developer I am passionate and
               accountable. I am looking forward to contributing to a larger
               cause than myself and using my developing skills to have a
-              positive impact on the world.
+              positive impact on the world. Check out my projects{' '}
+              <a href='/projects'>here</a>
             </p>
           </div>
         </div>
