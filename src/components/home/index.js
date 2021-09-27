@@ -16,6 +16,9 @@ const Home = () => {
             confident working with JavaScript and the MERN stack but am always
             open to picking up new technology.
           </p>
+          <p className='paragraph'>
+            <a href='/projects'>Check out my projects!</a>
+          </p>
           <br />
         </div>
 

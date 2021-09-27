@@ -17,13 +17,16 @@ const Projects = () => {
             </div>
             <div className='col-6'>
               <p className='paragraph'>
-                Currently, I am cloning Teton Gravity Research's website. It is
-                a large undertaking but already has a lot of functionality to
-                explore. I used React, HTML, CSS, Bootstrap, Material UI, and
-                more for the frontend. The backend consists of Express, Node,
-                MongoDB, and more. I will be implementing full CRUD
-                functionality in the forum section. It also features RESTful API
-                integration.
+                This project was done completely from scratch modeling Teton
+                Gravity Research's website. This project was built using the
+                MERN stack. It features tons of API integration, React hooks,
+                Redux management, and plenty more.{' '}
+                <a
+                  href='https://github.com/csbaker12/tgrSite'
+                  target='_blank'
+                  rel='noreferrer'>
+                  Check out the project's repo.
+                </a>
               </p>
             </div>
           </div>
